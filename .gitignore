@@ -1,29 +1,97 @@
-# Python
+# ======================
+# PYTHON / DJANGO
+# ======================
 __pycache__/
 *.py[cod]
 *.sqlite3
 *.log
-
-# Virtualenv
-venv/
-
-# Environment variables
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.env
 .env
+.env.*
+*.egg-info/
+.Python
+db.sqlite3
 
-# Node
+# Django static/media
+/static/
+/media/
+/staticfiles/
+/node_modules/
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ======================
+# REACT / NODE
+# ======================
+# dependencies
 node_modules/
-.eslintcache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
 
-# Mac/Windows
+# production build
+/build/
+dist/
+*.tgz
+
+# misc
+.cache/
+.vscode/
 .DS_Store
-Thumbs.db
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# tests
+coverage/
+htmlcov/
+*.cover
+.tox/
+.nox/
+
+# local dev
+*.local
+*.pid
 
 # Docker
 *.pid
-*.sock
-*.tar
-*.db
-.env.*
+*.seed
+.dockerignore
 
-# VSCode
-.vscode/
+# Pytest
+.pytest_cache/
+.coverage
+nosetests.xml
+coverage.xml
+*.coveragerc
+test-results/
+
+# AWS credentials
+.aws/
+
+# ======================
+# SYSTEM FILES
+# ======================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.bak
+*.swp
+*.tmp
+*.orig
+*.old
