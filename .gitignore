@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+
+# Virtualenv
+venv/
+
+# Environment variables
+.env
+
+# Node
+node_modules/
+.eslintcache
+
+# Mac/Windows
+.DS_Store
+Thumbs.db
+
+# Docker
+*.pid
+*.sock
+*.tar
+*.db
+.env.*
+
+# VSCode
+.vscode/
